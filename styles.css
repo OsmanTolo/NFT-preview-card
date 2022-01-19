@@ -7,20 +7,24 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-color: hsl(215, 51%, 70%);
+}
+
 body{
   width: 100vw;
   min-height: 100vh;
   padding: 20px;
-  font-size: 18px;
+  font-size: 1rem;
   background-color: hsl(217, 54%, 11%);
   font-family: 'Outfit', sans-serif;
   color: white;
 }
 
 .container{
-  padding: 20px;
+  padding: 25px;
   background-color: hsl(216, 50%, 16%);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .image-equilibrium{
@@ -28,9 +32,66 @@ body{
   width: 100%;
   height: 50%;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 0.5rem;
 }
 
+p.collection-name{
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+
+p.collection-description{
+  font-weight: 300;
+  color: var(--primary-color);
+  margin: 1rem 0;
+}
+
+#nft-info{
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  /* border-bottom: 0.05rem solid var(--primary-color); */
+}
+
+.price-container{
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.time-container{
+  display: flex;
+  gap: 0.5rem;
+  color: var(--primary-color);
+}
+
+#creator-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  color: var(--primary-color);
+  border-top: 0.025rem solid var(--primary-color);
+  padding: 0.5rem 0;
+}
+
+.creator-img{
+  object-fit: scale-down;
+  border: .25px solid white;
+  border-radius: 50%;
+}
+
+span{
+  color: white;
+}
+
+/* hr{
+  border: 0.5px solid var(--primary-color);
+} */
 /* footer{
   position: absolute;
   bottom: 0;
