@@ -12,7 +12,7 @@
 }
 
 body{
-  /* max-width: 100%; */
+  width: 100%;
   height: 100vh;
   padding: 20px;
   font-size: 1rem;
@@ -44,7 +44,7 @@ body{
 
 p.collection-name{
   font-size: 1.5rem;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   font-weight: 600;
   letter-spacing: 0.05rem;
 }
@@ -52,7 +52,7 @@ p.collection-name{
 p.collection-description{
   font-weight: 300;
   color: var(--primary-color);
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
   line-height: 1.5;
 }
 
@@ -87,6 +87,10 @@ p.collection-description{
   padding-top: 1rem;
   margin-bottom: 0;
 }
+
+/* .clock-icon{
+  object-fit: cover;
+} */
 
 .creator-img{
   object-fit: contain;
