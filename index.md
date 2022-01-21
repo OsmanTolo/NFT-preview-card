@@ -1,37 +1,57 @@
-## Welcome to GitHub Pages
+# Frontend Mentor - NFT-preview card component solution
 
-You can use the [editor on GitHub](https://github.com/OsmanTolo/NFT-preview-card/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is my solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. The challenges are definitely worth your time.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![full-desktop-icon-hover](https://user-images.githubusercontent.com/97065151/150601590-b4406950-15ab-47cd-83d9-a2a083b42c21.png)
 
-### Markdown
+## Table of contents
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-```markdown
-Syntax highlighted code block
+## Overview
 
-# Header 1
-## Header 2
-### Header 3
+### The challenge
 
-- Bulleted
-- List
+Users should be able to:
 
-1. Numbered
-2. List
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
-**Bold** and _Italic_ and `Code` text
+### Screenshot
 
-[Link](url) and ![Image](src)
-```
+![screencapture-127-0-0-1-5500-index-html-2022-01-21-21_07_32](https://user-images.githubusercontent.com/97065151/150601660-99e830bb-5885-497b-a134-ee37fa645aae.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## My process
 
-### Jekyll Themes
+### Built with
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/OsmanTolo/NFT-preview-card/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-### Support or Contact
+### What I learned
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+One thing that stood out for me from this challenge is the icon overlay section, this was the most challenging part for me. This challenge covered all the basic things a new web developer should know and learn.
+
+### Continued development
+
+I specifically want to focus on strengthening my foundation of CSS. I find myself having to go back to remind myself of the basics. This is especially the case for knowing when to use em or rems and sizing properties such as width or max-width or min-width. I spent a lot of time with trial and error until it works. I will be going through a CSS course again to nail the basics.
+
+### Useful resources
+
+- [[1] web.dev](https://web.dev/learn/css/) - This was my go to for concise Box Model expplanation. I really liked how they provided simple and straighforward analogies. They also cover a lot more CSS topics.
+- [[2] w3schools](https://www.w3schools.com/) - This is an amazing website which provided answers to so many questions I searched for on google. I'd recommend it to anyone still learning the basic concepts of web developement.
+
+## Author
+
+- Twitter - [@OsmanTolo\_](https://twitter.com/OsmanTolo_)
+- Frontend Mentor - [@OsmanTolo](https://www.frontendmentor.io/profile/osmantolo)
