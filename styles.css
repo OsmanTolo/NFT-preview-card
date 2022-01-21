@@ -28,6 +28,7 @@ body {
   color: white;
   overflow-x: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -58,15 +59,6 @@ body {
   line-height: 0;
 }
 
-/* .card-image {
-  display: block;
-  position: relative;
-  display: block;
-  width: 100%;
-  overflow: hidden;
-  border-radius: 0.5rem;
-} */
-
 .overlap-icon {
   position: absolute;
   display: flex;
@@ -77,11 +69,12 @@ body {
   width: 100%;
   height: 100%;
   opacity: 0;
-  background-color: rgba(0, 255, 247, 0.5);
+  background-color: hsl(178, 100%, 50%, 0.4);
 }
 
 .image-container:hover .overlap-icon {
   opacity: 1;
+  transition: 0.5s;
 }
 
 h1.collection-name {
@@ -125,7 +118,9 @@ p.collection-description {
 }
 
 .collection-name:hover {
-  color: var(--primary-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 #creator-info {
@@ -149,25 +144,27 @@ span {
   color: white;
 }
 
-.collection-name:hover {
+span:hover {
   color: var(--secondary-color);
   cursor: pointer;
   transition: 0.5s;
 }
 
-/* @media (min-width: 375px) {
-  body {
-    width: 80%;
+/*To keep the footer at the bottom of the page.*/
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+@media (max-width: 475px) {
+  footer {
+    font-size: 13px;
+    text-align: center;
   }
-  .collection-name:hover {
-    color: var(--secondary-color);
-    cursor: pointer;
-    transition: 0.5s;
-  } 
-  .card-image:hover {
-    opacity: 0.3;
-    cursor: pointer;
-    background: url(./images/icon-view.svg) no-repeat;
-    background-color: var(--secondary-color);
-  }
-} */
+}
