@@ -46,8 +46,8 @@ I specifically want to focus on strengthening my foundation of CSS. I find mysel
 
 ### Useful resources
 
-- [1](https://web.dev/learn/css/) - This was my go to for concise Box Model expplanation. I really liked how they provided simple and straighforward analogies. They also cover a lot more CSS topics.
-- [2](https://www.w3schools.com/) - This is an amazing website which provided answers to so many questions I searched for on google. I'd recommend it to anyone still learning the basic concepts of web developement.
+- [[1] web.dev](https://web.dev/learn/css/) - This was my go to for concise Box Model expplanation. I really liked how they provided simple and straighforward analogies. They also cover a lot more CSS topics.
+- [[2] w3schools](https://www.w3schools.com/) - This is an amazing website which provided answers to so many questions I searched for on google. I'd recommend it to anyone still learning the basic concepts of web developement.
 
 ## Author
 
